@@ -14,7 +14,7 @@ The xml-output of this script was tested as an input for Blast2Go via local b2gP
 <hr>
 <b>Usage</b>
 
-perl bigBlast2XML.pl -blast <input.file.name> -out <output.prefix>
+perl bigBlast2XML.pl -blast input.file.name -out output.prefix
 <br><br>
 &nbsp;Usage:   bigBlast2XML.pl [options]
 <br>
