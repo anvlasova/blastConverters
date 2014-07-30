@@ -14,14 +14,14 @@ Usage
 
 perl bigBlast2XML.pl -blast <input.file.name> -out <output.prefix>
 <br>
- Usage:   bigBlast2XML.pl [options]
+&nbsp;Usage:   bigBlast2XML.pl [options]
 <br>
- Options<br>
-        blastFile|blast  - input BLAST file in NCBI format [Mandatory]<br>
-        numberSeqs|n     - number of sequence in the output file. Sometimes input file is huge and for parallelisation purpose user wants to divide it into chunks.<br>
-                           By default it 1,000,000 seqs per file.<br>
-        outputPrefix|out - prefix for output files. Output file names will be constructed like prefix+number+.xml<br>
-                           By default it is 'convertedBlast'<br>
+&nbsp;Options<br>
+&nbsp;&nbsp;&nbsp;&nbsp;blastFile|blast  - input BLAST file in NCBI format [Mandatory]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;numberSeqs|n     - number of sequence in the output file. Sometimes input file is huge and for parallelization purpose user wants to divide it into chunks.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By default it 1,000,000 seqs per file.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; outputPrefix|out - prefix for output files. Output file names will be constructed like prefix+number+.xml<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default it is 'convertedBlast'<br>
 
 
 
